@@ -1,4 +1,3 @@
-import unittest
 
 def identlims(mas):
     if len(mas) < 2:
@@ -17,7 +16,6 @@ def identlims(mas):
                 break
             j += 1
         if found_break_left:
-            print("Коробки")
             break
 
     if not found_break_left and j == len(mas) and i < len(mas)-1:
